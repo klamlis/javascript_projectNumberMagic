@@ -15,11 +15,13 @@ function click_Jugar()
 
 function f_numeroMagico()
 {
-    let userName = prompt("Please enter one number from 1 to 9");
+    let userName = input_number.value;
     if(userName >= 1 && userName <=9)
     {
         magicNumber = (userName * 9)* 12345679;
-        confirm("MAGIC: ("+ userName + " x "+ 9+") x "+ 12345679 + " = "+ magicNumber );
+        var miResultado = document.getElementById('txt_resultado');
+        miResultado.innerHTML="MAGIC: <br> <br> <br>("+ userName + " x "+ 9+") x "+ 12345679 + " <br>=<br> "+ magicNumber ;
+       /*  confirm("MAGIC: ("+ userName + " x "+ 9+") x "+ 12345679 + " = "+ magicNumber ); */
     }
     else
     {

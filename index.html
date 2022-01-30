@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/logic.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Number Magic</title>
 </head>
 <body>
-    <button id="btn_Play" type="button" onclick="click_Jugar()">PLAY!</button>
+    <div id="i_tablero">
+        <div class="tipografia titulo" id="txt_titulo">
+            Magic Number
+        </div>
+        <div id="i_resultado">
+            <img src="images/character.svg" width="400px">
+            <div class="tipografia parrafo" id="txt_resultado">
+                MAGIC: <br> <br> <br> 
+                Operación <br>
+                =<br>
+                Resultado
+            </div>
+        </div>
+        <div class="tipografia parrafo" id="i_juego">
+            <div id="txt_instrucciones1">
+                Escribe un número del 1 al 9
+            </div>
+            <input id="input_number" type="number">
+            <div id="txt_instrucciones2">
+                Luego dar click en el botón "Jugar"
+            </div>
+            <button id="btn_Play" type="button" onclick="click_Jugar()">Jugar</button>
+        </div>
+    </div>
+    
 </body>
 </html>

@@ -1,0 +1,61 @@
+body {
+    background-color: #F1D558;
+}
+.tipografia{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F1D558;
+}
+.titulo{
+    font-size: 80px;
+}
+.parrafo{
+    font-size: 30px;
+}
+#i_tablero{
+    background-color: #274072;
+    width: 1000px;
+    height: 700px;
+    border-radius: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -500px;
+    margin-top: -350px;
+}
+#txt_titulo{
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+#i_resultado{
+    text-align: center;
+    margin-left: 580px;
+    margin-top: -150px;
+}
+#txt_resultado{
+    margin-top: -250px;
+    margin-left: 20px;
+}
+#i_juego{
+
+    text-align: center;
+    margin-left: -450px;
+    margin-top: -350px;
+    line-height: 80px;
+
+}
+button{
+    background-color: #D7195B;
+    border: none;
+    padding: 1px 50px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+#input_number
+{
+    font-size: 30px;
+    text-align: center;
+}
